@@ -1,0 +1,13 @@
+body {
+    background-color: #f1f1f1;
+}
+
+table {
+    background-color: #fcfcfc;
+}
+
+td > input, th > input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
