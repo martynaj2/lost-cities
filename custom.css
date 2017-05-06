@@ -11,3 +11,7 @@ td > input, th > input {
     border: none;
     background-color: transparent;
 }
+
+th > input {
+    font-size: 1.35em;
+}
