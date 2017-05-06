@@ -17,13 +17,16 @@ function clearStyle(elementId) {
 }
 
 function calculate() {
-    var player1 = "Score: " + (score("p1g1", "p1g1_score")
+    var player1 = parseInt(score("p1g1", "p1g1_score")
         + score("p1g2", "p1g2_score") + score("p1g3", "p1g3_score"));
-    var player2 = "Score: " + (score("p2g1", "p2g1_score")
+    var player2 = parseInt(score("p2g1", "p2g1_score")
         + score("p2g2", "p2g2_score") + score("p2g3", "p2g3_score"));
 
-    document.getElementById("p1_final").value = player1;
-    document.getElementById("p2_final").value = player2;
+    document.getElementById("p1_final").value = "Score: " + player1;
+    document.getElementById("p2_final").value = "Score: " + player2;
+
+    clearStyle("p1_final");
+    clearStyle("p2_final");
 
     if(player1 != player2) {
         var loser = "p2_final";
@@ -37,9 +40,5 @@ function calculate() {
         document.getElementById(winner).style.backgroundSize = "20px 20px";
         document.getElementById(loser).style.color = "#eee";
         document.getElementById(loser).style.backgroundColor = "#ff3333";
-    }
-    else {
-        clearStyle("p1_final");
-        clearStyle("p2_final");
     }
 }
