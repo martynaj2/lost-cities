@@ -13,151 +13,205 @@
             <h4>Game score calculator</h4>
         </div>
         <br>
-        <div class="row col-xs-8 col-xs-offset-2">
+        <div class="row col-xs-12">
             <table class="table table-bordered table-hover">
                 <tr>
-                    <th class="col-xs-6" colspan="3">
+                    <th class="col-xs-1"></th>
+                    <th class="col-xs-5" colspan="3">
                         <input type="text" placeholder="Player 1" class="text-center text-danger">
                         </th>
-                    <th class="col-xs-6" colspan="3">
+                    <th class="col-xs-5" colspan="3">
                         <input type="text" placeholder="Player 2" class="text-center text-primary">
                     </th>
+                    <th class="col-xs-1"></th>
                 </tr>
                 <tr>
-                    <td class="col-xs-2 text-center text-info">Game 1</td>
-                    <td class="col-xs-2 text-center text-info">Game 2</td>
-                    <td class="col-xs-2 text-center text-info">Game 3</td>
-                    <td class="col-xs-2 text-center text-info">Game 1</td>
-                    <td class="col-xs-2 text-center text-info">Game 2</td>
-                    <td class="col-xs-2 text-center text-info">Game 3</td>
+                    <td class="col-xs-1"></td>
+                    <div class="col-xs-10">
+                        <td class="text-center text-info">Game 1</td>
+                        <td class="text-center text-info">Game 2</td>
+                        <td class="text-center text-info">Game 3</td>
+                        <td class="text-center text-info">Game 1</td>
+                        <td class="text-center text-info">Game 2</td>
+                        <td class="text-center text-info">Game 3</td>
+                    </div>
+                    <td class="col-xs-1"></td>
                 </tr>
                 <tr>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p1g1" id="p1g1_1" value="0">
+                    <td class="col-xs-1">
+                        <img src="red.jpg" class="img img-responsive img-circle">
                     </td>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p1g2" id="p1g2_1" value="0">
-                    </td>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p1g3" id="p1g3_1" value="0">
-                    </td>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p2g1" id="p2g1_1" value="0">
-                    </td>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p2g2" id="p2g2_1" value="0">
-                    </td>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p2g3" id="p2g3_1" value="0">
-                    </td>
-                </tr>
-                <tr>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p1g1" id="p1g1_2" value="0">
-                    </td>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p1g2" id="p1g2_2" value="0">
-                    </td>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p1g3" id="p1g3_2" value="0">
-                    </td>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p2g1" id="p2g1_2" value="0">
-                    </td>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p2g2" id="p2g2_2" value="0">
-                    </td>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p2g3" id="p2g3_2" value="0">
+                    <div class="col-xs-10">
+                        <td>
+                            <input onchange="calculate()" type="number" name="p1g1" id="p1g1_1" value="0">
+                        </td>
+                        <td>
+                            <input onchange="calculate()" type="number" name="p1g2" id="p1g2_1" value="0">
+                        </td>
+                        <td>
+                            <input onchange="calculate()" type="number" name="p1g3" id="p1g3_1" value="0">
+                        </td>
+                        <td>
+                            <input onchange="calculate()" type="number" name="p2g1" id="p2g1_1" value="0">
+                        </td>
+                        <td>
+                            <input onchange="calculate()" type="number" name="p2g2" id="p2g2_1" value="0">
+                        </td>
+                        <td>
+                            <input onchange="calculate()" type="number" name="p2g3" id="p2g3_1" value="0">
+                        </td>
+                    </div>
+                    <td class="col-xs-1">
+                        <img src="yellow.jpg" class="img img-responsive img-circle">
                     </td>
                 </tr>
                 <tr>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p1g1" id="p1g1_3" value="0">
+                    <td class="col-xs-1">
+                        <img src="green.jpg" class="img img-responsive img-circle">
                     </td>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p1g2" id="p1g2_3" value="0">
-                    </td>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p1g3" id="p1g3_3" value="0">
-                    </td>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p2g1" id="p2g1_3" value="0">
-                    </td>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p2g2" id="p2g2_3" value="0">
-                    </td>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p2g3" id="p2g3_3" value="0">
-                    </td>
-                </tr>
-                <tr>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p1g1" id="p1g1_4" value="0">
-                    </td>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p1g2" id="p1g2_4" value="0">
-                    </td>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p1g3" id="p1g3_4" value="0">
-                    </td>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p2g1" id="p2g1_4" value="0">
-                    </td>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p2g2" id="p2g2_4" value="0">
-                    </td>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p2g3" id="p2g3_4" value="0">
+                    <div class="col-xs-10">
+                        <td>
+                            <input onchange="calculate()" type="number" name="p1g1" id="p1g1_2" value="0">
+                        </td>
+                        <td>
+                            <input onchange="calculate()" type="number" name="p1g2" id="p1g2_2" value="0">
+                        </td>
+                        <td>
+                            <input onchange="calculate()" type="number" name="p1g3" id="p1g3_2" value="0">
+                        </td>
+                        <td>
+                            <input onchange="calculate()" type="number" name="p2g1" id="p2g1_2" value="0">
+                        </td>
+                        <td>
+                            <input onchange="calculate()" type="number" name="p2g2" id="p2g2_2" value="0">
+                        </td>
+                        <td>
+                            <input onchange="calculate()" type="number" name="p2g3" id="p2g3_2" value="0">
+                        </td>
+                    </div>
+                    <td class="col-xs-1">
+                        <img src="blue.jpg" class="img img-responsive img-circle">
                     </td>
                 </tr>
                 <tr>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p1g1" id="p1g1_5" value="0">
+                    <td class="col-xs-1">
+                        <img src="white.jpg" class="img img-responsive img-circle">
                     </td>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p1g2" id="p1g2_5" value="0">
+                    <div class="col-xs-10">
+                        <td>
+                            <input onchange="calculate()" type="number" name="p1g1" id="p1g1_3" value="0">
+                        </td>
+                        <td>
+                            <input onchange="calculate()" type="number" name="p1g2" id="p1g2_3" value="0">
+                        </td>
+                        <td>
+                            <input onchange="calculate()" type="number" name="p1g3" id="p1g3_3" value="0">
+                        </td>
+                        <td>
+                            <input onchange="calculate()" type="number" name="p2g1" id="p2g1_3" value="0">
+                        </td>
+                        <td>
+                            <input onchange="calculate()" type="number" name="p2g2" id="p2g2_3" value="0">
+                        </td>
+                        <td>
+                            <input onchange="calculate()" type="number" name="p2g3" id="p2g3_3" value="0">
+                        </td>
+                    </div>
+                    <td class="col-xs-1">
+                        <img src="white.jpg" class="img img-responsive img-circle">
                     </td>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p1g3" id="p1g3_5" value="0">
+                </tr>
+                <tr>
+                    <td class="col-xs-1">
+                        <img src="blue.jpg" class="img img-responsive img-circle">
                     </td>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p2g1" id="p2g1_5" value="0">
+                    <div class="col-xs-10">
+                        <td>
+                            <input onchange="calculate()" type="number" name="p1g1" id="p1g1_4" value="0">
+                        </td>
+                        <td>
+                            <input onchange="calculate()" type="number" name="p1g2" id="p1g2_4" value="0">
+                        </td>
+                        <td>
+                            <input onchange="calculate()" type="number" name="p1g3" id="p1g3_4" value="0">
+                        </td>
+                        <td>
+                            <input onchange="calculate()" type="number" name="p2g1" id="p2g1_4" value="0">
+                        </td>
+                        <td>
+                            <input onchange="calculate()" type="number" name="p2g2" id="p2g2_4" value="0">
+                        </td>
+                        <td>
+                            <input onchange="calculate()" type="number" name="p2g3" id="p2g3_4" value="0">
+                        </td>
+                    </div>
+                    <td class="col-xs-1">
+                        <img src="green.jpg" class="img img-responsive img-circle">
                     </td>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p2g2" id="p2g2_5" value="0">
+                </tr>
+                <tr>
+                    <td class="col-xs-1">
+                        <img src="yellow.jpg" class="img img-responsive img-circle">
                     </td>
-                    <td class="col-xs-2">
-                        <input onchange="calculate()" type="number" name="p2g3" id="p2g3_5" value="0">
+                    <div class="col-xs-10">
+                        <td>
+                            <input onchange="calculate()" type="number" name="p1g1" id="p1g1_5" value="0">
+                        </td>
+                        <td>
+                            <input onchange="calculate()" type="number" name="p1g2" id="p1g2_5" value="0">
+                        </td>
+                        <td>
+                            <input onchange="calculate()" type="number" name="p1g3" id="p1g3_5" value="0">
+                        </td>
+                        <td>
+                            <input onchange="calculate()" type="number" name="p2g1" id="p2g1_5" value="0">
+                        </td>
+                        <td>
+                            <input onchange="calculate()" type="number" name="p2g2" id="p2g2_5" value="0">
+                        </td>
+                        <td>
+                            <input onchange="calculate()" type="number" name="p2g3" id="p2g3_5" value="0">
+                        </td>
+                    </div>
+                    <td class="col-xs-1">
+                        <img src="red.jpg" class="img img-responsive img-circle">
                     </td>
                 </tr>
                 <tr class="game_scores">
-                    <td class="col-xs-2">
-                        <input type="text" id="p1g1_score" value="0" readonly class="text-center">
-                    </td>
-                    <td class="col-xs-2">
-                        <input type="text" id="p1g2_score" value="0" readonly class="text-center">
-                    </td>
-                    <td class="col-xs-2">
-                        <input type="text" id="p1g3_score" value="0" readonly class="text-center">
-                    </td>
-                    <td class="col-xs-2">
-                        <input type="text" id="p2g1_score" value="0" readonly class="text-center">
-                    </td>
-                    <td class="col-xs-2">
-                        <input type="text" id="p2g2_score" value="0" readonly class="text-center">
-                    </td>
-                    <td class="col-xs-2">
-                        <input type="text" id="p2g3_score" value="0" readonly class="text-center">
-                    </td>
+                    <td class="col-xs-1"></td>
+                    <div class="col-xs-10">
+                        <td>
+                            <input type="text" id="p1g1_score" value="0" readonly class="text-center">
+                        </td>
+                        <td>
+                            <input type="text" id="p1g2_score" value="0" readonly class="text-center">
+                        </td>
+                        <td>
+                            <input type="text" id="p1g3_score" value="0" readonly class="text-center">
+                        </td>
+                        <td>
+                            <input type="text" id="p2g1_score" value="0" readonly class="text-center">
+                        </td>
+                        <td>
+                            <input type="text" id="p2g2_score" value="0" readonly class="text-center">
+                        </td>
+                        <td>
+                            <input type="text" id="p2g3_score" value="0" readonly class="text-center">
+                        </td>
+                    </div>
+                    <td class="col-xs-1"></td>
                 </tr>
                 <tr class="game_final_scores">
-                    <td class="col-xs-2" colspan="3">
-                        <input type="text" id="p1_final" value="0" readonly class="text-center">
-                    </td>
-                    <td class="col-xs-2" colspan="3">
-                        <input type="text" id="p2_final" value="0" readonly class="text-center">
-                    </td>
+                    <td class="col-xs-1"></td>
+                    <div class="col-xs-10">
+                        <td class="col-xs-2" colspan="3">
+                            <input type="text" id="p1_final" value="0" readonly class="text-center">
+                        </td>
+                        <td class="col-xs-2" colspan="3">
+                            <input type="text" id="p2_final" value="0" readonly class="text-center">
+                        </td>
+                    </div>
+                    <td class="col-xs-1"></td>
                 </tr>
             </table>
         </div>

@@ -23,3 +23,9 @@ tr.game_scores > td {
 tr.game_final_scores > td {
     font-size: 1.15em;
 }
+
+td > img {
+    margin: 0 auto;
+    width: 26px;
+    height: 26px;
+}
