@@ -13,3 +13,4 @@ A simple website app for storing and calculating scores in [Lost Cities](https:/
 - change colour of players' names
 - swap the order of icons for players
 - "hide/show final results" button
+- (tidy up website directory and shrink icons)
