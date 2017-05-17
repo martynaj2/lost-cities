@@ -33,8 +33,8 @@ function calculate() {
         var winner = "p1_final";
         if(player2 > player1) { loser = [winner, winner = loser][0]; }
         document.getElementById(winner).style.color = "#eee";
-        document.getElementById(winner).style.backgroundColor = "#33dd33";
-        document.getElementById(winner).style.backgroundImage = "url('winner.png')";
+        document.getElementById(winner).style.backgroundColor = "#33ff33";
+        document.getElementById(winner).style.backgroundImage = "url('images/winner.png')";
         document.getElementById(winner).style.backgroundPosition = "5px 4px";
         document.getElementById(winner).style.backgroundRepeat = "no-repeat";
         document.getElementById(winner).style.backgroundSize = "20px 20px";
